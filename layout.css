@@ -1,0 +1,54 @@
+header{
+  height: 250px;
+  width: 100%;
+  /*border: solid;*/
+  text-align: center;
+  font-size: 100px;
+}
+
+#mainbody{
+  /*height: 100%*/
+  background-image: url("pic1.jpg");
+}
+
+#nav{
+  height: 50px;
+  width: 100%;
+  vertical-align: middle;
+  background-color: white;
+  border: solid;
+  border-left: none;
+  border-right: none;
+  border-color: blue;
+}
+
+#sidebar{
+  width: 25%;
+  height: 650px;
+  float: left;
+  color: lightseagreen;
+  border: solid;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-color: aqua;
+}
+
+#main{
+  width: 60%;
+  height: 650px;
+  float: left;
+  color: darkblue;
+  /*border: solid;*/
+}
+
+#footer{
+  height: 50px;
+  width: 100%;
+  clear: both;
+  text-align: center;
+  border: solid;
+  border-left: none;
+  border-right: none;
+  border-color: blue;
+}

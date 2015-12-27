@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GT's Website</title>
+  <link rel="stylesheet" href="layout.css">
+</head>
+
+<body>
+<div id="mainbody">
+  <header>
+    <p>GT's Website</p>
+  </header>
+
+  <div id="nav">
+    <p>
+      <a href="home.html">Home</a>
+      <a href="page2.html">Two</a>
+      <a href="form.html">Form</a>
+    </p>
+  </div>
+
+  <div id="sidebar">
+    <p style="font-weight: bold;">Summaries</p>
+  </div>
+
+  <div id="main">
+    <p style="font-weight: bold;">Forum</p>
+
+    <form action="form.html" method="GET">
+
+      <p>Member Search:<input type="search" name="search" >
+        <input type="submit"></p>
+
+      <br>
+
+      <p>Date and Time of Birth:<br>
+        <input type="datetime" name="bdaytime"></p>
+
+      <p>Email:<br>
+        <input type="email" name="email"></p>
+
+      <p>Favorite Color:<br>
+        <input type="color" name="color"></p>
+
+      <p>Favorite Month:<br>
+        <input type="month" name="month"></p>
+
+      <p>Favorite number:<br>
+        <input type="number" name="number"></p>
+
+      <p>Favorite Website:<br>
+        <input type="url" name="favsite"></p>
+
+      <p>Important Date:<br>
+        <input type="date" name="imptdate"></p>
+
+      <p>Current Happiness:<br>
+        0<input type="range" name="Happiness" min="0" max="20">20</p>
+
+      <input type="submit">
+
+    </form>
+  </div>
+
+  <div id="footer">
+    <p>GT CopyRight</p>
+  </div>
+
+</div>
+</body>
+</html>
